@@ -7,8 +7,9 @@ function Navbar() {
   return (
     <>
       <nav>
-        <h1 className="header">Welcome to my AltSchool Frontend Second Semester Examination Project
-</h1>
+        <h1 className="header">
+          Welcome to my AltSchool Frontend Second Semester Examination Project
+        </h1>
         <CustomNavLink className="nav" to="/">
           Home &nbsp;
         </CustomNavLink>
@@ -20,9 +21,9 @@ function Navbar() {
         <CustomNavLink className="nav" to="/users">
           &nbsp; Users &nbsp;
         </CustomNavLink>
-         &nbsp;
+        &nbsp;
         <CustomNavLink className="nav" to="/profile">
-          &nbsp; Profile 
+          &nbsp; Profile
         </CustomNavLink>
         {!auth.user && (
           <CustomNavLink className="nav" to="/login">

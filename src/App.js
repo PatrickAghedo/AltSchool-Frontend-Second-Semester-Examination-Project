@@ -23,7 +23,9 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`https://randomuser.me/api/?results=50&seed=abc`);
+        const res = await fetch(
+          `https://randomuser.me/api/?results=50&seed=abc`
+        );
         if (!res.ok) {
           throw new Error('something went wrong');
         }
@@ -53,9 +55,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="users" element={<Users />}>
-            <Route path="usersList"
-          element={<UsersList data={currentPages} loading={loading} />}
-        />
+              <Route
+                path="usersList"
+                element={<UsersList data={currentPages} loading={loading} />}
+              />
             </Route>
             <Route
               path="profile"
