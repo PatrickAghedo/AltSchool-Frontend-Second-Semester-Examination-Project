@@ -13,11 +13,11 @@ export const Profile = () => {
   };
 
   return (
-    <div>
-      <h2 className="text">Welcome {auth.user}</h2>
-      <button onClick={handleLogout}>
-        Logout
-      </button>
-    </div>
+    <>
+      <div>
+        <h2 className="text">Welcome {auth.user}</h2>
+        <button onClick={handleLogout}>Logout</button>
+      </div>
+    </>
   );
 };

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ErrorPage() {
   return (
+    <>
     <div className="pagenotfound">
       <h2>404 Error</h2>
       <h2>Page Not Found</h2>
@@ -12,6 +13,7 @@ function ErrorPage() {
         </Link>
       </h2>
     </div>
+    </>
   );
 }
 

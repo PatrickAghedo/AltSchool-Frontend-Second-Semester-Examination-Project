@@ -16,17 +16,19 @@ export const Login = () => {
     navigate(redirectPath, { replace: true });
   };
   return (
-    <div>
-      <label>
-        Username:{' '}
-        <input
-          placeholder="Username"
-          type="text"
-          onChange={(e) => setUser(e.target.value)}
-        />
-      </label>
+    <>
+      <div>
+        <label>
+          Username:{' '}
+          <input
+            placeholder="Username"
+            type="text"
+            onChange={(e) => setUser(e.target.value)}
+          />
+        </label>
 
-      <button onClick={handleLogin}> Login </button>
-    </div>
+        <button onClick={handleLogin}> Login </button>
+      </div>
+    </>
   );
 };
