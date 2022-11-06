@@ -13,11 +13,11 @@ function Navbar() {
           Home &nbsp;
         </CustomNavLink>
         &nbsp;
-        <CustomNavLink className="nav" to="/About">
+        <CustomNavLink className="nav" to="/about">
           &nbsp; About &nbsp;
         </CustomNavLink>
         &nbsp;
-        <CustomNavLink className="nav" to="/Users">
+        <CustomNavLink className="nav" to="/users">
           &nbsp; Users &nbsp;
         </CustomNavLink>
          &nbsp;
