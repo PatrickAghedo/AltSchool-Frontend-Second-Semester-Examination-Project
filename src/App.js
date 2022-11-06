@@ -52,9 +52,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
-            <Route path="Users" element={<Users />}>
-            <Route
-          path="UsersList"
+            <Route path="users" element={<Users />}>
+            <Route path="usersList"
           element={<UsersList data={currentPages} loading={loading} />}
         />
             </Route>

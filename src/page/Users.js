@@ -6,7 +6,7 @@ function Users() {
     <>
       <h2>This page is used to implement nested routes</h2>
       <nav className="nav">
-        <CustomNavLink className="nav" to="UsersList">
+        <CustomNavLink className="nav" to="/usersList">
           UsersList
         </CustomNavLink>
         <Outlet />
