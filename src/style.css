@@ -46,7 +46,7 @@ label {
 }
 
 .flex-items {
-  max-width: 480px;
+  max-width: 600px;
   padding: auto;
   align-self: center;
 }
